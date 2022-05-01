@@ -21,12 +21,17 @@ DESIGN :
 1- Main Classes:
 
 -clubHub class is the main class as it is only meant to ask the user if they are the admin or a student.
+
 -StudentEngine class handles the GET and POST requests to view, add, update, or delete students to clubs.
+
 -adminEngine class handles the GET and POST requests to view, add, update, or delete admins as well as clubs.
 
 2- Sub Classes:
 
 -Club class is consisted of functions which call upon the dataBaseCon class in order to handle operations related to viewing, adding, updating and deleting clubs.
+
 -Admin class is consisted of functions which call upon the dataBaseCon class in order to handle operations related to viewing, adding, updating and deleting admins.
+
 -Student class is consisted of functions which call upon the dataBaseCon class in order to handle operations related to viewing, adding, updating and deleting students.
+
 -DataBaseCon class consisted of functions which directly process the operations related to viewing, adding, updating and deleting in the MYSQL database.
